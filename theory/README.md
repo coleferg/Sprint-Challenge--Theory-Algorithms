@@ -31,7 +31,7 @@ Find regexes that match the following.
   812-2-10
   1-1-1
 
-/[0-9][0-9]?[0-9]?[0-9]?-[0-9][0-9]?-[0-9][0-9]?/
+/[0-9]+-[0-9]+-[0-9]+/
 
 ## State Machines
 
