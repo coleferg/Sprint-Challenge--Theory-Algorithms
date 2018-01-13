@@ -2,7 +2,8 @@
 
 ## Regular Expressions
 
-Find regexes that match the following.
+Find regexes that match the following. (e.g. find a single regex that matches
+both `antelope` and `antelopes`.)
 
 * Regex that matches:
 
@@ -20,10 +21,16 @@ Find regexes that match the following.
 
     boat
 
+<<<<<<< HEAD
 /[gm]oat/
 
 * Regex that matches dates in YYYY-MM-DD format. This does not need to
   verify the date is correct.
+=======
+* Regex that matches dates in YYYY-MM-DD format. (Year can be 1-4 digits, and
+  month and day can each be 1-2 digits). This does not need to verify the date
+  is correct.
+>>>>>>> 51a872cade66797c8828c01b328c443851985e98
 
   2000-10-12
   1999-1-20
